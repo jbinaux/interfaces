@@ -23,10 +23,6 @@ public class Hotel5 implements hotelLuxe {
      */
     public int nbSauna;
 
-    /**
-     * 
-     */
-    public String modelTaxi;
 
     /**
      * 
@@ -43,5 +39,22 @@ public class Hotel5 implements hotelLuxe {
 
     	System.out.println("taxi mercedes");
     }
+
+	public int getTaillePiscine() {
+		return taillePiscine;
+	}
+
+	public void setTaillePiscine(int taillePiscine) {
+		this.taillePiscine = taillePiscine;
+	}
+
+	public int getNbSauna() {
+		return nbSauna;
+	}
+
+	public void setNbSauna(int nbSauna) {
+		this.nbSauna = nbSauna;
+	}
+
 
 }
